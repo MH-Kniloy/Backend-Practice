@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const UserList = require("./schema/userSchema")
 const port = 3000;
 
 mongoose
